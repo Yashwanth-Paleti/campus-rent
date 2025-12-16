@@ -1,7 +1,7 @@
 export default function Navbar() {
   return (
     <nav style={styles.nav}>
-      <h2>CampusRent</h2>
+      <h2 style={{ fontWeight: 700 }}>CampusRent</h2>
       <div style={styles.links}>
         <a href="#">Browse</a>
         <a href="#">How it Works</a>
@@ -18,7 +18,11 @@ const styles = {
     justifyContent: "space-between",
     alignItems: "center",
     padding: "20px 40px",
-    borderBottom: "1px solid #eee"
+    borderBottom: "1px solid #eee",
+    backgroundColor: "#fff",
+    position: "sticky",
+    top: 0,
+    zIndex: 10
   },
   links: {
     display: "flex",

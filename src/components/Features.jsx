@@ -5,7 +5,9 @@ export default function Features() {
       <div style={styles.grid}>
         <div style={styles.card}>Save Money</div>
         <div style={styles.card}>Verified Students</div>
-        <div style={styles.card}>Short-Term Rentals</div>
+        <div style={styles.card}>Short-Term & Affordable</div>
+        <div style={styles.card}>Built for College Students</div>
+        <div style={styles.card}>Earn From Unused Items</div>
       </div>
     </section>
   );
@@ -13,18 +15,21 @@ export default function Features() {
 
 const styles = {
   section: {
-    padding: "60px 20px",
+    padding: "80px 20px",
     textAlign: "center"
   },
   grid: {
     display: "grid",
-    gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))",
-    gap: "20px",
-    marginTop: "30px"
+    gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))",
+    gap: "30px",
+    marginTop: "40px",
+    maxWidth: "900px",
+    marginInline: "auto"
   },
   card: {
-    padding: "30px",
+    padding: "32px",
     border: "1px solid #eee",
-    borderRadius: "10px"
+    borderRadius: "14px",
+    backgroundColor: "#fff"
   }
 };

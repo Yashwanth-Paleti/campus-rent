@@ -1,10 +1,11 @@
 export default function Hero() {
   return (
     <section style={styles.hero}>
-      <h1>Rent What You Need,Share what you have</h1>
+      <h1>Rent What You Need,Share what you have From your campus</h1>
       <p>
-        A peer-to-peer rental platform for college students.
-        Save money by renting from your campus.
+         CampusRent lets students rent and share items like calculators,
+  books, and essentials for short-term use—saving money and
+  helping each other.
       </p>
 
       <div style={styles.actions}>
@@ -17,29 +18,32 @@ export default function Hero() {
 
 const styles = {
   hero: {
-    padding: "100px 20px",
+    padding: "120px 20px 100px",
     textAlign: "center"
   },
   actions: {
-    marginTop: "30px",
+    marginTop: "35px",
     display: "flex",
     justifyContent: "center",
-    gap: "15px"
+    gap: "18px",
+    flexWrap: "wrap"
   },
   primary: {
     backgroundColor: "#ff7a18",
     color: "#fff",
-    padding: "12px 22px",
+    padding: "14px 26px",
     border: "none",
-    borderRadius: "8px",
-    cursor: "pointer"
+    borderRadius: "10px",
+    cursor: "pointer",
+    fontSize: "1rem"
   },
   secondary: {
     backgroundColor: "#fff",
     color: "#111",
-    padding: "12px 22px",
-    border: "1px solid #ccc",
-    borderRadius: "8px",
-    cursor: "pointer"
+    padding: "14px 26px",
+    border: "1px solid #ddd",
+    borderRadius: "10px",
+    cursor: "pointer",
+    fontSize: "1rem"
   }
 };
